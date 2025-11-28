@@ -1,0 +1,9 @@
+:root {
+  --blue:#1e4e79; --blue-soft:#e8f1ff; --blue-light:#4c89bf;
+  --dark:#0d2c4a; --bg:#f0f6ff; --white:#fff; --text:#1f2933;
+  --muted:#6b7280; --accent-green:#1CB899; --accent-gold:#F5C64E;
+  --accent-red:#D34F4F; --radius:18px; --shadow:0 10px 25px rgba(30,78,121,0.2);
+}
+body {background:var(--bg); font-family:Arial;}
+.card {background:#fff; padding:20px; border-radius:var(--radius);}
+.btn-primary {padding:8px 12px; background:var(--blue); color:#fff; border-radius:8px;}
